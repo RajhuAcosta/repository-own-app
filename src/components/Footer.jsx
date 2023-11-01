@@ -4,8 +4,8 @@ const Footer = ({windowWidth}) => {
       <div className="">
         <div className="text-white text-4xl font-[Oswald] font-bold mb-8"><p>Rajhu.A</p></div>
         <div className="flex gap-3 text-white mb-9">
-          <a href="https://www.linkedin.com/in/rajhu-acosta--066976253" target="_blank"><i className={`bx bxl-linkedin-square ${windowWidth>=1920?("bx-md"):("bx-sm")} text-[#0077B5]`}></i></a>
-          <a href="https://github.com/RajhuAcosta" target="_blank"><i className={`bx bxl-github 3xl:bx-md ${windowWidth>=1920?("bx-md"):("bx-sm")} text-[#6E40C9]`}></i></a>
+          <a href="https://www.linkedin.com/in/rajhu-acosta--066976253" target="_blank"><i className={`bx bxl-linkedin-square ${windowWidth>=1920?("bx-md"):("bx-sm")} text-[#2867B2] hover:text-[#0077B5]`}></i></a>
+          <a href="https://github.com/RajhuAcosta" target="_blank"><i className={`bx bxl-github 3xl:bx-md ${windowWidth>=1920?("bx-md"):("bx-sm")} text-[#6E40C9] hover:text-[#6CC644]`}></i></a>
         </div>
       </div>
       <div className="text-white 3xl:text-lg flex text-sm 3xl:mr-24">

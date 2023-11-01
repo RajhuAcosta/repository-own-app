@@ -9,7 +9,7 @@ const PhilosophyAndValues = () => {
                 I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, & hospitality.
             </p>
             <a className="block mt-8 lg:mt-16 3xl:" href="https://www.linkedin.com">
-                <span className="pb-1 border-b-2 border-[#89949f] font-medium 3xl:text-2xl">
+                <span className="pb-1 border-b-2 border-[#89949f] hover:border-0 hover:text-[#89949f] font-medium 3xl:text-2xl">
                     <a href="https://www.linkedin.com/in/rajhu-acosta--066976253" target="_blank">Check my Linkedin</a>
                 </span>
             </a>
