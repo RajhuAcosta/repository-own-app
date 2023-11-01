@@ -35,11 +35,11 @@ function App() {
     <div className="font-[Sen] min-h-screen">
       <Header windowWidth={windowWidth}/>
       <Presentation/>
-      <WorkExperience/>
+      {/* <WorkExperience/> */}
       <PhilosophyAndValues/>
       <SkillSet/>
-      <MyProjects/>
-      <Dribbble/>
+      {/* <MyProjects/> */}
+      {/* <Dribbble/> */}
       <Contact handleSubmit={handleSubmit} submit={submit} register={register} />
       <Footer/>
     </div>
