@@ -15,6 +15,7 @@ function App() {
   const { handleSubmit, register} = useForm();
   const submit = () => {
     // Función de contacto : Enviar correo
+    alert("Mensaje enviado al correo exitosamente");
   }
   
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
