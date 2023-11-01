@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Contact from './components/Contact'
-import Dribbble from './components/Dribbble'
+// import Dribbble from './components/Dribbble'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import MyProjects from './components/MyProjects'
 import PhilosophyAndValues from './components/PhilosophyAndValues'
 import Presentation from './components/Presentation'
 import SkillSet from './components/SkillSet'
-import WorkExperience from './components/WorkExperience'
+// import WorkExperience from './components/WorkExperience'
 import { useForm } from "react-hook-form";
 
 function App() {
@@ -38,10 +38,10 @@ function App() {
       {/* <WorkExperience/> */}
       <PhilosophyAndValues/>
       <SkillSet/>
-      {/* <MyProjects/> */}
+      <MyProjects/>
       {/* <Dribbble/> */}
       <Contact handleSubmit={handleSubmit} submit={submit} register={register} />
-      <Footer/>
+      <Footer windowWidth={windowWidth}/>
     </div>
   )
 }

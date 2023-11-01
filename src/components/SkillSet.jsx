@@ -1,11 +1,11 @@
 const SkillSet = () => {
   return (
-    <section className="px-4 xsm:px-7 xl:px-12 3xl:px-20 py-10 lg:py-16 3xl:py-20 text-white bg-black text-3xl font-medium grid gap-5 xxsm:gap-7 xsm:gap-8 md:gap-11 lg:flex lg:justify-between">
+    <section className="px-4 xsm:px-7 xl:px-12 3xl:px-20 py-10 lg:py-16 3xl:py-20 text-white bg-black font-medium grid gap-5 xxsm:gap-7 xsm:gap-8 md:gap-11 lg:flex lg:justify-between">
         <div className="grid gap-6 lg:block">
-            <p className="font-bold lg:mb-10 3xl:text-5xl">
+            <p className="font-bold lg:mb-10 text-3xl 3xl:text-5xl">
                 Skillset
             </p>
-            <p className="text-base 3xl:text-xl font-normal text-[#8491A0] lg:w-[300px]">
+            <p className="text-base 3xl:text-xl font-normal text-[#8491A0] lg:w-[300px] 3xl:w-[600px]">
                 With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.
             </p>
         </div>

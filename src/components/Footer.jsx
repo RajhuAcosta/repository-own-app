@@ -1,15 +1,15 @@
-const Footer = () => {
+const Footer = ({windowWidth}) => {
   return (
-    <footer className="bg-[#181823] px-4 xsm:px-7 xl:px-12 pt-10 pb-28 smd:flex smd:justify-between">
+    <footer className="bg-[#181823] px-4 xsm:px-7 xl:px-12 3xl:px-20 pt-10 pb-28 smd:flex smd:justify-between">
       <div className="">
         <div className="text-white text-4xl font-[Oswald] font-bold mb-8"><p>Rajhu.A</p></div>
         <div className="flex gap-3 text-white mb-9">
-          <a href="linkedin.com"><i className='bx bxl-linkedin-square'></i></a>
-          <a href=""><i className='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/rajhu-acosta--066976253" target="_blank"><i className={`bx bxl-linkedin-square ${windowWidth>=1920?("bx-md"):("bx-sm")} text-[#0077B5]`}></i></a>
+          <a href="https://github.com/RajhuAcosta" target="_blank"><i className={`bx bxl-github 3xl:bx-md ${windowWidth>=1920?("bx-md"):("bx-sm")} text-[#6E40C9]`}></i></a>
         </div>
       </div>
-      <div className="text-white flex text-sm">
-        <ul className="w-36 xsm:w-52 xsmd:w-64 smd:w-44 leading-10">
+      <div className="text-white 3xl:text-lg flex text-sm 3xl:mr-24">
+        <ul className="w-36 xsm:w-52 xsmd:w-64 smd:w-44 3xl:w-72 leading-10">
           <li>Home</li>
           <li>About</li>
           <li>Work</li>
