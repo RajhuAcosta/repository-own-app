@@ -12,14 +12,10 @@ import './App.css';
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   useEffect(() => {
-    // Agregar un event listener para actualizar el ancho de la ventana cuando cambie el tamaño de la ventana.
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-
     window.addEventListener('resize', handleResize);
-
-    // Limpieza del event listener al desmontar el componente.
     return () => {
       window.removeEventListener('resize', handleResize);
     };
