@@ -8,7 +8,7 @@ const MyProjects = () => {
           <img src="/picture-projects/screen-appweather.png" alt="" />
           <div className="px-3 3xl:px-6 py-5 3xl:py-8">
             <h3 className="text-white font-semibold text-xl 3xl:text-2xl mb-2">Weather App</h3>
-            <p className="text-[#8491A0] 3xl:text-lg mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nihil fugit saepe quibusdam dolorem quis assumenda hic exercitationem.</p>
+            <p className="text-[#8491A0] 3xl:text-lg mb-3">Challenge: Use an api about the global weather, and show weather results according to the user's location, in addition to a search input, dark mode and changing the icon and image background in relation to the indicated weather.</p>
             <div className="flex justify-end">
               <button className="text-white 3xl:text-lg border-[#5221E6] border-b mx-3 py-1 hover:bg-[#5221E6] hover:mx-0 hover:px-3 hover:rounded-full transition-all"><a href="https://app-weather-three.vercel.app/" target="_blank">Live view</a></button>
             </div>
@@ -18,7 +18,7 @@ const MyProjects = () => {
           <img src="/picture-projects/screen-pokedex.png" alt="" />
           <div className="px-3 3xl:px-6 py-5 3xl:py-8">
             <h3 className="text-white font-semibold text-xl 3xl:text-2xl mb-2">Pokedex</h3>
-            <p className="text-[#8491A0] 3xl:text-lg mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nihil fugit saepe quibusdam dolorem quis assumenda hic exercitationem.</p>
+            <p className="text-[#8491A0] 3xl:text-lg mb-3">Challenge: Rendering of cards from a pokemon api, with search input by name, select by type, home route that saves the username in local storage and color display according to the pokemon type, as well as routes for the details of each pokemon.</p>
             <div className="flex justify-end">
               <button className="text-white 3xl:text-lg border-[#5221E6] border-b mx-3 py-1 hover:bg-[#5221E6] hover:mx-0 hover:px-3 hover:rounded-full transition-all"><a href="https://pokedex-app-web-omega.vercel.app/" target="_blank">Live view</a></button>
             </div>
@@ -30,7 +30,7 @@ const MyProjects = () => {
           <img src="/picture-projects/screen-rickandmorty.png" alt="" />
           <div className="px-3 3xl:px-6 py-5 3xl:py-8">
             <h3 className="text-white font-semibold text-xl 3xl:text-2xl mb-2">Rick and Morty dimensions</h3>
-            <p className="text-[#8491A0] 3xl:text-lg mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nihil fugit saepe quibusdam dolorem quis assumenda hic exercitationem.</p>
+            <p className="text-[#8491A0] 3xl:text-lg mb-3">Challenge: Create an app that allows searching for Rick and Morty's dimensions using their ID, information taken from an API.</p>
             <div className="flex justify-end">
               <button className="text-white 3xl:text-lg border-[#5221E6] border-b mx-3 py-1 hover:bg-[#5221E6] hover:mx-0 hover:px-3 hover:rounded-full transition-all"><a href="https://rick-and-morty-appweb.vercel.app/" target="_blank">Live view</a></button>
             </div>
@@ -40,7 +40,7 @@ const MyProjects = () => {
           <img src="/picture-projects/screen-fortunecookies.png" alt="" />
           <div className="px-3 3xl:px-6 py-5 3xl:py-8">
             <h3 className="text-white font-semibold text-xl 3xl:text-2xl mb-2">Fortune Cookies</h3>
-            <p className="text-[#8491A0] 3xl:text-lg mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nihil fugit saepe quibusdam dolorem quis assumenda hic exercitationem.</p>
+            <p className="text-[#8491A0] 3xl:text-lg mb-3">Challenge: Render data randomly, maintaining their relationship (image backgrounds, phrases and their sources).</p>
             <div className="flex justify-end">
               <button className="text-white 3xl:text-lg border-[#5221E6] border-b mx-3 py-1 hover:bg-[#5221E6] hover:mx-0 hover:px-3 hover:rounded-full transition-all"><a href="https://galletas-fortuna-luck.vercel.app/" target="_blank">Live view</a></button>
             </div>
