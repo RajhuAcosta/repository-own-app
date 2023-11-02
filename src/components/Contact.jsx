@@ -1,4 +1,8 @@
-const Contact = ({ submit,handleSubmit,register}) => {
+const Contact = ({useForm,ValidationError}) => {
+  const [state, handleSubmit] = useForm("meqbdeqa");
+  if (state.succeeded) {
+      alert("Mensaje enviado correctamente");
+  }
   return (
     <section id="contactMe" className="3xl:flex 3xl:justify-center bg-black">
       <div className="bg-black px-4 xsm:px-7 py-10 lg:py-16 grid gap-9 smd:flex smd:gap-0 smd:justify-between lg:justify-around 3xl:justify-stretch">
@@ -6,7 +10,7 @@ const Contact = ({ submit,handleSubmit,register}) => {
           <h1 className="text-white text-3xl xl:text-5xl font-bold smd:mb-8">Let's talk business</h1>
           <p className="text-[#8491A0] 3xl:text-xl smd:max-w-[88%] lg:max-w-[520px] 3xl:max-w-[450px]">Now that you know a lot about me, let me know if you are interested to work with me.</p>
         </div>
-        <form onSubmit={handleSubmit(submit)} className="grid gap-8 text-white">
+        <form onSubmit={handleSubmit} className="grid gap-8 text-white">
           <div className="grid gap-2 xsm:w-[80%] xsm:mx-auto smd:mx-0 smd:w-64 smmd:w-72 md:w-80 lg:w-96">
             <label className="text-sm" htmlFor="name">
               Name
@@ -14,9 +18,9 @@ const Contact = ({ submit,handleSubmit,register}) => {
             <input
               className="outline-none px-2 py-1 rounded-sm h-12 bg-[#181823] border-0"
               id="name"
+              name="name"
               type="text"
               autoComplete="off"
-              {...register("name")}
             />
           </div>
           <div className="grid gap-2 xsm:w-[80%] xsm:mx-auto smd:mx-0 smd:w-64 smmd:w-72 md:w-80 lg:w-96">
@@ -26,10 +30,11 @@ const Contact = ({ submit,handleSubmit,register}) => {
             <input
               className="outline-none px-2 py-1 rounded-sm h-12 bg-[#181823] border-0"
               id="email"
-              type="text"
+              name="email"
+              type="email"
               autoComplete="off"
-              {...register("email")}
             />
+            <ValidationError prefix="Email" field="email" errors={state.errors}/>
           </div>
           <div className="grid gap-2 xsm:w-[80%] xsm:mx-auto smd:mx-0 smd:w-64 smmd:w-72 md:w-80 lg:w-96">
             <label className="text-sm" htmlFor="message">
@@ -38,12 +43,13 @@ const Contact = ({ submit,handleSubmit,register}) => {
             <textarea
               className="outline-none px-2 py-1 rounded-sm h-24 bg-[#181823] border-0"
               id="message"
+              name="message"
               type="text"
               autoComplete="off"
-              {...register("message")}
             ></textarea>
+            <ValidationError prefix="Message" field="message" errors={state.errors}/>
           </div>
-          <button className="outline-none py-5 mt-1 font-medium bg-[#5221E6] xsm:w-[80%] xsm:mx-auto smd:mx-0 smd:w-64 smmd:w-72 md:w-80 lg:w-96 hover:bg-white hover:text-[#5221E6] transition-all">LET'S GET STARTED</button>
+          <button className="outline-none py-5 mt-1 font-medium bg-[#5221E6] xsm:w-[80%] xsm:mx-auto smd:mx-0 smd:w-64 smmd:w-72 md:w-80 lg:w-96 hover:bg-white hover:text-[#5221E6] transition-all" type="submit" disabled={state.submitting}>LET'S GET STARTED</button>
         </form>
       </div>
     </section>

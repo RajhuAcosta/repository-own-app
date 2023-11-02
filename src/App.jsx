@@ -1,22 +1,15 @@
-import { useEffect, useState } from 'react'
-import './App.css'
-import Contact from './components/Contact'
-// import Dribbble from './components/Dribbble'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import MyProjects from './components/MyProjects'
-import PhilosophyAndValues from './components/PhilosophyAndValues'
-import Presentation from './components/Presentation'
-import SkillSet from './components/SkillSet'
-// import WorkExperience from './components/WorkExperience'
-import { useForm } from "react-hook-form";
+import { useEffect, useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import Header from './components/Header';
+import Presentation from './components/Presentation';
+import PhilosophyAndValues from './components/PhilosophyAndValues';
+import MyProjects from './components/MyProjects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import SkillSet from './components/SkillSet';
+import './App.css';
 
 function App() {
-  const { handleSubmit, register} = useForm();
-  const submit = () => {
-    // Función de contacto : Enviar correo
-  }
-  
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   useEffect(() => {
     // Agregar un event listener para actualizar el ancho de la ventana cuando cambie el tamaño de la ventana.
@@ -40,7 +33,7 @@ function App() {
       <SkillSet/>
       <MyProjects/>
       {/* <Dribbble/> */}
-      <Contact handleSubmit={handleSubmit} submit={submit} register={register} />
+      <Contact useForm={useForm} ValidationError={ValidationError}/>
       <Footer windowWidth={windowWidth}/>
     </div>
   )
