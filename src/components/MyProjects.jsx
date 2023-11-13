@@ -8,7 +8,7 @@ const MyProjects = () => {
           <img src="/picture-projects/screen-appweather.png" alt="" />
           <div className="px-3 3xl:px-6 py-5 3xl:py-8">
             <h3 className="text-white font-semibold text-xl 3xl:text-2xl mb-2">Weather App</h3>
-            <p className="text-[#8491A0] 3xl:text-lg mb-3">Challenge: Use an api about the global weather, and show weather results according to the user's location, in addition to a search input, dark mode and changing the icon and image background in relation to the indicated weather.</p>
+            <p className="text-[#8491A0] 3xl:text-lg mb-3">Challenge: Use an API about the global weather, and show weather results according to the user's location, in addition to a search input, dark mode and changing the icon and image background in relation to the indicated weather.</p>
             <div className="flex justify-end">
               <button className="text-white 3xl:text-lg border-[#5221E6] border-b mx-3 py-1 hover:bg-[#5221E6] hover:mx-0 hover:px-3 hover:rounded-full transition-all"><a href="https://app-weather-three.vercel.app/" target="_blank">Live view</a></button>
             </div>
