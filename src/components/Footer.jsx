@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 const Footer = ({ windowWidth }) => {
   return (
     <footer className="bg-[#181823] px-4 xsm:px-7 xl:px-12 3xl:px-20 pt-10 pb-28 smd:flex smd:justify-between">
