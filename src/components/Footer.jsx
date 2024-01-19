@@ -118,7 +118,7 @@ const Footer = ({ windowWidth, language }) => {
                 <i
                   className={`bx bxl-gmail 3xl:bx-md ${
                     windowWidth >= 1920 ? "bx-md" : "bx-sm"
-                  } text-[#EA4335] hover:text-[#fb9ffe]`}
+                  } text-[#ff2525] hover:text-[#ff6b3d]`}
                 ></i>
               </a>
               <a href="https://wa.me/51957362285" target="_blank">
