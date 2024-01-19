@@ -17,7 +17,7 @@ const Footer = ({ windowWidth, language }) => {
                 <i
                   className={`bx bxl-linkedin-square ${
                     windowWidth >= 1920 ? "bx-md" : "bx-sm"
-                  } text-[#2867B2] hover:text-[#0077B5]`}
+                  } text-[#0077B5] hover:text-[#466efe]`}
                 ></i>
               </a>
               <a href="https://github.com/RajhuAcosta" target="_blank">
@@ -25,6 +25,20 @@ const Footer = ({ windowWidth, language }) => {
                   className={`bx bxl-github 3xl:bx-md ${
                     windowWidth >= 1920 ? "bx-md" : "bx-sm"
                   } text-[#6E40C9] hover:text-[#6CC644]`}
+                ></i>
+              </a>
+              <a href="https://github.com/RajhuAcosta" target="_blank">
+                <i
+                  className={`bx bxl-gmail 3xl:bx-md ${
+                    windowWidth >= 1920 ? "bx-md" : "bx-sm"
+                  } text-[#EA4335] hover:text-[#fb9ffe]`}
+                ></i>
+              </a>
+              <a href="https://github.com/RajhuAcosta" target="_blank">
+                <i
+                  className={`bx bxl-whatsapp 3xl:bx-md ${
+                    windowWidth >= 1920 ? "bx-md" : "bx-sm"
+                  } text-[#25D366] hover:text-[#e2f76a]`}
                 ></i>
               </a>
             </div>
