@@ -16,7 +16,7 @@ const Header = ({ windowWidth, language, setLanguage }) => {
         <>
           {windowWidth >= 1024 ? (
             <>
-              <header className="flex items-center">
+              <header id="home" className="flex items-center">
                 <div className="bg-black w-[30%] text-white font-[Oswald] font-bold text-3xl py-[1.25rem] px-7 xl:px-12 2xl:px-20">
                   <span className="">Rajhu A.</span>
                 </div>
