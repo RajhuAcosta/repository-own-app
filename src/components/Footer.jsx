@@ -28,7 +28,7 @@ const Footer = ({ windowWidth, language }) => {
                 ></i>
               </a>
               <a
-                href="mailto:rajhuacosta1008@gmail.com?subject=Asunto del correo&body=Cuerpo del mensaje"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=rajhuacosta1008@gmail.com&su=Asunto del correo&body=Cuerpo del mensaje"
                 target="_blank"
               >
                 <i
@@ -112,7 +112,7 @@ const Footer = ({ windowWidth, language }) => {
                 ></i>
               </a>
               <a
-                href="mailto:rajhuacosta1008@gmail.com?subject=Asunto del correo&body=Cuerpo del mensaje"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=rajhuacosta1008@gmail.com&su=Asunto del correo&body=Cuerpo del mensaje"
                 target="_blank"
               >
                 <i
